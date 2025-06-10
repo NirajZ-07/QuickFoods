@@ -1,0 +1,29 @@
+{
+  "name": "food-ordering-app",
+  "version": "1.0.0",
+  "description": "This is Food ordering app from Namaste React",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NirajZ-07/Food-Ordering-App.git"
+  },
+  "author": "Niraj Zope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NirajZ-07/Food-Ordering-App/issues"
+  },
+  "homepage": "https://github.com/NirajZ-07/Food-Ordering-App#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.22.2"
+  }
+}
