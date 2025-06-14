@@ -11,7 +11,7 @@ class About extends React.Component {
     } 
     
     componentDidMount(){
-        console.log("Parent component did mount called");
+        console.log("Parent component did mount called")
     }
     
 
@@ -19,12 +19,12 @@ class About extends React.Component {
         console.log("Parent Render Called");
         return(
             <div>
-                <h1>About </h1>
+                <h1>About Class Component</h1>
                 <h3>This is about page</h3>
 
-                <UserClass name={"Niraj Zope class"} location={"Pune class"}/>
-                <UserClass name={"Elon musk class"} location={"US class"}/>
-                <UserClass name={"Ambani class"} location={"mumbai class"}/>
+                <UserClass name={"Niraj Zope"} location={"Pune class"}/>
+                {/* <UserClass name={"Elon musk class"} location={"US class"}/>
+                <UserClass name={"Ambani class"} location={"mumbai class"}/> */}
             </div>
         );
     }
